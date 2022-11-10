@@ -15,61 +15,73 @@ const Faq = () => {
     <Box m="20px">
       <Header title="FAQ" subtitle="Frequently Asked Queation Page" />
 
-      <Accordion defaultExpanded>
+      <Accordion defaultExpanded sx={{ backgroundColor: colors.primary[400] }}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
             1. An Important Question.
           </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails sx={{ color: colors.grey[100] }}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
           quisquam fuga sint modi, exercitationem ex nihil voluptatum.
         </AccordionDetails>
       </Accordion>
 
-      <Accordion defaultExpanded>
+      <Accordion defaultExpanded sx={{ backgroundColor: colors.primary[400] }}>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography variant="h5" color={colors.greenAccent[500]}>
+            1. An Important Question.
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails sx={{ color: colors.grey[100] }}>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
+          quisquam fuga sint modi, exercitationem ex nihil voluptatum.
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion defaultExpanded sx={{ backgroundColor: colors.primary[400] }}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
             2. An Important Question.
           </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails sx={{ color: colors.grey[100] }}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
           quisquam fuga sint modi, exercitationem ex nihil voluptatum.
         </AccordionDetails>
       </Accordion>
 
-      <Accordion defaultExpanded>
+      <Accordion defaultExpanded sx={{ backgroundColor: colors.primary[400] }}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
             3. An Important Question.
           </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails sx={{ color: colors.grey[100] }}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
           quisquam fuga sint modi, exercitationem ex nihil voluptatum.
         </AccordionDetails>
       </Accordion>
 
-      <Accordion defaultExpanded>
+      <Accordion defaultExpanded sx={{ backgroundColor: colors.primary[400] }}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
             4. An Important Question.
           </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails sx={{ color: colors.grey[100] }}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
           quisquam fuga sint modi, exercitationem ex nihil voluptatum.
         </AccordionDetails>
       </Accordion>
 
-      <Accordion defaultExpanded>
+      <Accordion defaultExpanded sx={{ backgroundColor: colors.primary[400] }}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
             5. An Important Question.
           </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails sx={{ color: colors.grey[100] }}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
           quisquam fuga sint modi, exercitationem ex nihil voluptatum.
         </AccordionDetails>
